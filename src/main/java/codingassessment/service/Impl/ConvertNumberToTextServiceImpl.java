@@ -10,6 +10,13 @@ import codingassessment.exception.CalculationException;
 import codingassessment.exception.OverFlowException;
 import codingassessment.service.ConvertNumberToTextService;
 
+/**
+ *In this class, String type input in numberDTO is parsed to long type. 
+ *The size of the input is compared with the maximum value of the long type and if the error is caught, the custom checked OverFlowException is thrown.
+ *In addition, the format of the input entered is examined and if there is an error, NumberFormatException is thrown.
+ * 
+ * @author Metin Ugur
+ */
 @Service
 public class ConvertNumberToTextServiceImpl implements ConvertNumberToTextService {
 
