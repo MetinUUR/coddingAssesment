@@ -6,6 +6,12 @@ import org.springframework.stereotype.Component;
 
 import codingassessment.exception.CalculationException;
 
+/**
+ *In this class, the English word equivalent of the long type input is produced. 
+ * For the numbers that cannot be produced in English words, custom checked CalculationException is thrown.
+ * 
+ * @author Metin Ugur
+ */
 @Component
 public class ConvertNumberToEnglishText {
 
